@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://staging.pipefy.net/",
+  "viewportWidth": 1440,
+  "viewportHeight": 1440,
+  "video": false,
+  "chromeWebSecurity": false,
+  "numTestsKeptInMemory": 5,
+  "watchForFileChanges": false,
+  "blacklistHosts": ["*aptrinsic.com", "*mxpnl.com", "*newrelic.com", "*inspectlet.com",
+    "*visualwebsiteoptimizer.com", "*onesignal.com", "*wootric.com"],
+  "defaultCommandTimeout": 60000,
+  "env": {
+    "RETRIES": 3
+  },
+  "integrationFolder": "./sandbox"
+}
