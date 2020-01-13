@@ -4,7 +4,7 @@ class Login {
 	constructor() {
 		this.local = {
 			txbUser: '#user_login',
-			txbPassword: '[#user_password]',
+			txbPassword: '#user_password',
 			btnLogIn: '[action="/password"]'
 		}
 		this.staging = {
